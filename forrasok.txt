@@ -1,0 +1,8 @@
+A HTML és a CSS kódhoz az alábbi linkeket/videókat vettem segítségül:
+
+https://www.youtube.com/watch?v=rHC4_sJjNuQ
+https://www.youtube.com/watch?v=W-nIX17Gg-Q
+https://www.youtube.com/watch?v=HV7DtH3J2PU&t
+
+https://getbootstrap.com 	(több mindent)
+https://www.w3schools.com/html/    (több mindent)

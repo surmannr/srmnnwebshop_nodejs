@@ -1,0 +1,47 @@
+<%- include('partials/header') -%>
+<%- include('partials/menu')-%>
+<div class="container">
+    <div class="col-12">
+        <form method="post">
+            <h3>Új termék hozzáadása</h3>
+            <div class="form-group">
+                <label for="neve">Termék neve</label>
+                <input type="text" class="form-control" id="nev" name="nev">
+            </div>
+            <div class="form-group">
+                <label for="kat">Kategória kiválasztása</label>
+                <select class="form-control" id="kat" name="kat">
+                    <option>-</option>
+                    <% kateglist.forEach(function(pls){ %>
+                        <option><%= pls%></option>
+                    <% }); %>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="besz">Beszállító kiválasztása</label>
+                <select class="form-control" id="besz" name="besz">
+                    <% beszallitok.forEach(function(pls){ %>
+                        <option>
+                            <%= pls.bnev%>
+                        </option>
+                    <% }); %>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ar">Beszállítási ár</label>
+                <input type="number" step="1" class="form-control" id="ar" name="ar">
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="koz" name="koz" checked>
+                <label class="custom-control-label" for="koz" > Közzétéve </label>
+            </div>
+            <div class="row2">
+                <input type="submit" class="btn btn-primary" value="Mentés"/>
+                <a class="btn" href="/termekek" >Mégse</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<%- include('partials/footer')-%>

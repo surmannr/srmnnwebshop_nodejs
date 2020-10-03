@@ -1,0 +1,56 @@
+<%- include('partials/header') -%>
+<%- include('partials/menu')-%>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 tbl">
+            <table class="table">
+                <tr class="header">
+                    <th>
+                        Beszállító azonosító
+                    </th>
+                    <th class="nev">
+                        Beszállító neve
+                    </th>
+                    <th>
+                        Beszállító székhelye
+                    </th>
+                    <th class="ar">
+                        Beszállítói szorzó
+                    </th>
+                    <th>
+                        &nbsp;
+                    </th>
+                    <th>
+                        &nbsp;
+                    </th>
+                </tr>
+                <% beszallitok.forEach(function(egyBeszallito){ %>
+                    <tr>
+                        <td>
+                            <%= egyBeszallito._id %>
+                        <td class="nevl">
+                            <%= egyBeszallito.bnev %>
+                        </td>
+                        <td>
+                            <%= egyBeszallito.cim %>
+                        </td>
+                        <td>
+                            <%= egyBeszallito.szorzo %>
+                        </td>
+                        <td>
+                            <a href="/beszallito/edit/<%= egyBeszallito.id %>" class="fas fa-edit"></a>
+                        </td>
+                        <td>
+                            <a href="/beszallito/del/<%= egyBeszallito.id %>" class="fas fa-trash-alt"></a>
+                        </td>
+                    </tr>
+                <% }); %>
+            </table>
+            <a class="btn" href="/beszallito/new" >+</a>
+        </div>
+    </div>
+</div>
+
+
+<%- include('partials/footer')-%>

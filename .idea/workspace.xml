@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99654f76-199f-43d8-9a84-b712273c959a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
+  </component>
+  <component name="ProjectId" id="1hb3IqYSGgEzSyIyBSvYnYw0WdN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.10.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.10.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Suli\Egyetem - BME\5_Szerveroldali_Javascript\Házi Feladat - Webshop\4_Házi_Feladat - EJS\srmnnwebshop\views\partials" />
+      <recent name="E:\Suli\Egyetem - BME\5_Szerveroldali_Javascript\Házi Feladat - Webshop\4_Házi_Feladat - EJS\srmnnwebshop\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/srmnnwebshop/static/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99654f76-199f-43d8-9a84-b712273c959a" name="Default Changelist" comment="" />
+      <created>1600265887527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600265887527</updated>
+      <workItem from="1600265888566" duration="2885000" />
+      <workItem from="1600268875727" duration="10348000" />
+      <workItem from="1600283370720" duration="5582000" />
+      <workItem from="1600289191182" duration="291000" />
+      <workItem from="1600322905656" duration="32000" />
+      <workItem from="1600336651236" duration="11369000" />
+      <workItem from="1600359394239" duration="6310000" />
+      <workItem from="1600419867717" duration="6464000" />
+      <workItem from="1600432679841" duration="580000" />
+      <workItem from="1600436672853" duration="14733000" />
+      <workItem from="1600455121824" duration="15000" />
+      <workItem from="1600455312252" duration="312000" />
+      <workItem from="1600634320010" duration="471000" />
+      <workItem from="1600674720316" duration="276000" />
+      <workItem from="1600676923256" duration="17860000" />
+      <workItem from="1600765151907" duration="7846000" />
+      <workItem from="1600870095333" duration="369000" />
+      <workItem from="1601040318195" duration="6504000" />
+      <workItem from="1601047130936" duration="25000" />
+      <workItem from="1601136182532" duration="1334000" />
+      <workItem from="1601205813037" duration="95000" />
+      <workItem from="1601206126817" duration="9000" />
+      <workItem from="1601267325467" duration="3943000" />
+      <workItem from="1601277194079" duration="3446000" />
+      <workItem from="1601284210886" duration="8774000" />
+      <workItem from="1601303568667" duration="8884000" />
+      <workItem from="1601326086901" duration="145000" />
+      <workItem from="1601397996882" duration="938000" />
+      <workItem from="1601459819902" duration="285000" />
+      <workItem from="1601468766204" duration="1120000" />
+      <workItem from="1601630225219" duration="26867000" />
+      <workItem from="1601671007722" duration="2200000" />
+      <workItem from="1601705330910" duration="4820000" />
+      <workItem from="1601720850917" duration="5550000" />
+      <workItem from="1601731845884" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="906" y="198" key="#Inspections" timestamp="1600274656960">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="906" y="198" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1600274656960" />
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600343694328">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1600343694328" />
+    <state x="1104" y="440" key="Github.CreateGistDialog" timestamp="1600681984063">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1104" y="440" key="Github.CreateGistDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1600681984063" />
+    <state width="1269" height="281" key="GridCell.Tab.0.bottom" timestamp="1600455032441">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1269" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1600455032441" />
+    <state width="1269" height="281" key="GridCell.Tab.0.center" timestamp="1600455032441">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1269" height="281" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1600455032441" />
+    <state width="1269" height="281" key="GridCell.Tab.0.left" timestamp="1600455032441">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1269" height="281" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1600455032441" />
+    <state width="1269" height="281" key="GridCell.Tab.0.right" timestamp="1600455032441">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1269" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600455032441" />
+    <state x="936" y="242" key="run.anything.popup" timestamp="1600769613668">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="936" y="242" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1600769613668" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1601633470547">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1601633470547" />
+  </component>
+</project>

@@ -1,0 +1,52 @@
+body {
+    background-image: url("loginbackgroundimage.jpg");
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+form[name="login"]{
+    position: absolute;
+    padding: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,0.69);
+    color: #1e272e;
+    width: 550px;
+    box-sizing: border-box;
+    border-radius: 23px 23px 23px 23px;
+}
+h1{
+    color: aliceblue;
+    font-size: 100px;
+    font-weight: lighter;
+    margin-bottom: 6%;
+}
+input[type="text"], input[type="password"]{
+    background: none;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #0fbcf9;
+    border-radius: 45px;
+    width: 270px;
+    padding: 15px 10px;
+    color: aliceblue;
+}
+a[class="btn"],input[type="submit"]{
+    padding: 5px 15px;
+    background: #32ff7e;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #32ff7e;
+    border-radius: 45px;
+    width: 170px;
+    color: #1e272e;
+    font-weight: bold;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    width: 350px;
+    background: none;
+    border-color: #32ff7e;
+    color: aliceblue;
+}

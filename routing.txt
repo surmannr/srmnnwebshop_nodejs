@@ -1,0 +1,84 @@
+ Webshop admin felület
+ 	- index.html  			- login felület (username és password), login gomb
+ 	- welcome.html 			- üdvözlőfelület (csak szöveg van rajta)
+ 	- beszallitolista.html		- beszállítók listája (edit és delete gomb), oldal alján új beszállító hozzáadása a listához
+ 	- beszallitoletrehozas.html	- új beszállító adatok beírása, save és cancel gomb
+	- beszallitoszerkesztes.html	- kiválasztott beszállító adatainak szerkesztése, save és cancel gomb
+	- termeklista.html		- termékek listája (edit és delete gomb), oldal alján új beszállító hozzáadása a listához
+	- termekletrehozas.html		- új termék adatok beírása, save és cancel gomb
+	- termekszerkesztes.html 	- kiválasztott termék adatainak szerkesztése, save és cancel gomb
+
+Routing
+
+middleware/render/
+	renderMW
+
+middleware/auth/
+	logoutMW
+	authMW
+	checkAccMW
+
+middleware/termek/
+	getTermekMW
+	getTermekekMW
+	saveTermekMW
+	delTermekMW
+
+middleware/beszallito/
+	getBeszallitoMW
+	getBeszallitokMW
+	saveBeszallitoMW
+	delBeszallitoMW
+
+GET, POST  / 					- index.html
+	renderMW(index.html)		
+	checkAccMW - felhasználónév és jelszó ellenőrzése, ha ok -> welcome.html, ha nem akkor marad a főoldalon
+
+GET  /ecadmin				- welcome.html
+	renderMW(welcome.html)
+
+GET  /beszallitok			- beszallitolista.html
+	authMW - (ha felhasználó be van jelentkezve, akkor next(), egyébként login felületre viszi)
+	getBeszallitokMW
+	renderMW(beszallitolista.html)
+
+GET, POST  /beszallito/edit/:beszallitoid	- beszallitoszerkesztes.html
+	authMW
+	getBeszallitoMW
+	saveBeszallitoMW
+	renderMW(beszallitoszerkesztes.html)
+
+GET  /beszallito/del/:beszallitoid
+	authMW
+	getBeszallitoMW
+	delBeszallitoMW
+
+GET, POST  /beszallito/new			- beszallitoletrehozas.html
+	authMW
+	saveBeszallitoMW (ha nincs adat POST-ban küldve, akkor next(), egyébként az adatokat megpróbálja elmenteni és next())
+	renderMW(beszallitoletrehozas.html)
+	
+
+GET  /termekek				- termeklista.html
+	authMW
+	getTermekekMW
+	renderMW(termeklista.html)
+
+GET,POST /termekek/edit/:termekid		- termekszerkesztes.html
+	authMW
+	getTermekMW
+	saveTermekMW
+	renderMW(termekszerkesztes.html)
+
+GET  /termekek/del/:termekid
+	authMW
+	getTermekMW
+	delTermekMW
+
+GET, POST  /termekek/new			- termekletrehozas.html
+	authMW
+	saveTermekMW
+	renderMW(termekletrehozas.html)
+
+GET, POST  /logout
+	logoutMW

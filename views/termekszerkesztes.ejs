@@ -1,0 +1,48 @@
+<%- include('partials/header') -%>
+<%- include('partials/menu')-%>
+
+<div class="container">
+        <div class="col-12">
+            <form method="post">
+                <h3>Termék szerkesztése</h3>
+                <div class="form-group">
+                    <label for="neve">Termék neve</label>
+                    <input type="text" class="form-control" id="nev" name="nev" value="<%= (typeof termek === 'undefined') ? '' : termek.tnev %>">
+                </div>
+                <div class="form-group">
+                    <label for="kat">Kategória kiválasztása</label>
+                    <select class="form-control" id="kat" name="kat">
+                        <option><%= (typeof termek === 'undefined') ? '-' : termek.kategoria%></option>
+                        <% kateglist.forEach(function(pls){ %>
+                            <option><%= pls%></option>
+                        <% }); %>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="besz">Beszállító kiválasztása</label>
+                    <select class="form-control" id="besz" name="besz">
+                        <option><%= (typeof termek === 'undefined') ? '' : termek.besz_neve %></option>
+                        <% beszallitok.forEach(function(pls){ %>
+                            <option>
+                                <%= pls.bnev%>
+                            </option>
+                        <% }); %>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ar">Beszállítási ár</label>
+                    <input type="number" step="1" class="form-control" id="ar" name="ar" value="<%= (typeof termek === 'undefined') ? '' : termek.besz_ar %>">
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="koz" name="koz" <% if(termek.kozzeteve === "i"){%>checked<%}%>>
+                    <label class="custom-control-label" for="koz" > Közzétéve </label>
+                </div>
+                <div class="row2">
+                    <input type="submit" class="btn btn-primary" value="Mentés"/>
+                    <a class="btn" href="/termekek" >Mégse</a>
+                </div>
+            </form>
+        </div>
+</div>
+
+<%- include('partials/footer')-%>

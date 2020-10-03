@@ -1,0 +1,77 @@
+<%- include('partials/header') -%>
+<%- include('partials/menu')-%>
+<div class="container">
+    <div class="row">
+        <div class="col-12 tbl">
+            <table class="table">
+                <tr class="header">
+                    <th>
+                        Termék azonosító
+                    </th>
+                    <th class="nev">
+                        Termék neve
+                    </th>
+                    <th>
+                        Kategória
+                    </th>
+                    <th class="ar">
+                        Ár
+                    </th>
+                    <th>
+                        Beszállító azonosító
+                    </th>
+                    <th>
+                        Beszállítási ár
+                    </th>
+                    <th>
+                        Közzétéve
+                    </th>
+                    <th>
+                        &nbsp;
+                    </th>
+                    <th>
+                        &nbsp;
+                    </th>
+                </tr>
+                <% termekek.forEach(function(egyTermek){ %>
+                    <tr>
+                        <td>
+                            <%= egyTermek.id %>
+                        </td>
+                        <td class="nevl">
+                            <%= egyTermek.tnev %>
+                        </td>
+                        <td>
+                            <%= egyTermek.kategoria %>
+                        </td>
+                        <td>
+                            <%= egyTermek.ar %>
+                        </td>
+                        <td>
+                            <%= egyTermek._beszallito %>
+                        </td>
+                        <td>
+                            <%= egyTermek.besz_ar %>
+                        </td>
+                        <td>
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch<%= egyTermek.id %>" <% if(egyTermek.kozzeteve === "i"){%>checked<%}%> disabled>
+                                <label class="custom-control-label" for="customSwitch<%= egyTermek.id %>"></label>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="/termek/edit/<%= egyTermek.id %>" class="fas fa-edit"></a>
+                        </td>
+                        <td>
+                            <a href="/termek/del/<%= egyTermek.id %>" class="fas fa-trash-alt"></a>
+                        </td>
+                    </tr>
+                <% }); %>
+            </table>
+            <a class="btn" href="/termek/new" >+</a>
+        </div>
+    </div>
+</div>
+
+
+<%- include('partials/footer')-%>

@@ -1,0 +1,28 @@
+<%- include('partials/header') -%>
+<%- include('partials/menu') -%>
+<div class="container">
+    <div class="col-12">
+        <form method="post">
+            <h3>Beszállító szerkesztése</h3>
+            <div class="form-group">
+                <label for="neve">Beszállító neve</label>
+                <input type="text" class="form-control" id="nev" value="<%= (typeof beszallito === 'undefined') ? '' : beszallito.bnev %>" name="nev">
+            </div>
+            <div class="form-group">
+                <label for="szekhely">Beszállító székhelye</label>
+                <input type="text" class="form-control" id="cim" value="<%= (typeof beszallito === 'undefined') ? '' : beszallito.cim %>" name="cim">
+            </div>
+            <div class="form-group">
+                <label for="szorzo">Beszállítói szorzó</label>
+                <input type="text" class="form-control" id="szorzo" value="<%= (typeof beszallito === 'undefined') ? '' : beszallito.szorzo %>" name="szorzo">
+            </div>
+            <div class="row2">
+                <input type="submit" class="btn btn-primary" value="Mentés"/>
+                <a class="btn" href="/beszallitok" >Mégse</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<%- include('partials/footer')-%>
