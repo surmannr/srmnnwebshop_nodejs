@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99654f76-199f-43d8-9a84-b712273c959a" name="Default Changelist" comment="" />
+    <list default="true" id="99654f76-199f-43d8-9a84-b712273c959a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/unit/middleware/auth/authMW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/middleware/beszallito/getBeszallitoMW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/middleware/termek/getTermekMW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/beszallitoletrehozas.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/beszallitoletrehozas.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/beszallitoszerkesztes.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/beszallitoszerkesztes.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +25,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <hideBySeverity>
       <option value="15" />
     </hideBySeverity>
   </component>
   <component name="ProjectId" id="1hb3IqYSGgEzSyIyBSvYnYw0WdN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Suli\Egyetem - BME\5_Szerveroldali_Javascript\Házi Feladat - Webshop\7_Házi_Feladat - Tesztelés\srmnnwebshop\test\unit\middleware" />
       <recent name="E:\Suli\Egyetem - BME\5_Szerveroldali_Javascript\Házi Feladat - Webshop\4_Házi_Feladat - EJS\srmnnwebshop\views\partials" />
       <recent name="E:\Suli\Egyetem - BME\5_Szerveroldali_Javascript\Házi Feladat - Webshop\4_Házi_Feladat - EJS\srmnnwebshop\views" />
     </key>
@@ -101,11 +115,20 @@
       <workItem from="1601705330910" duration="4820000" />
       <workItem from="1601720850917" duration="5550000" />
       <workItem from="1601731845884" duration="28000" />
+      <workItem from="1601733794084" duration="670000" />
+      <workItem from="1601800245861" duration="200000" />
+      <workItem from="1601800963380" duration="9000" />
+      <workItem from="1601801027742" duration="168000" />
+      <workItem from="1601801725402" duration="471000" />
+      <workItem from="1601805408442" duration="9032000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="198" key="#Inspections" timestamp="1600274656960">
@@ -116,10 +139,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1600343694328" />
+    <state x="1354" y="96" key="CommitChangelistDialog2" timestamp="1601810061907">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1354" y="96" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1601810061907" />
     <state x="1104" y="440" key="Github.CreateGistDialog" timestamp="1600681984063">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1104" y="440" key="Github.CreateGistDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1600681984063" />
+    <state x="1546" y="418" key="Github.ShareDialog" timestamp="1601733837364">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1546" y="418" key="Github.ShareDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1601733837364" />
+    <state x="1282" y="218" key="Github.UntrackedFilesDialog" timestamp="1601733855276">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1282" y="218" key="Github.UntrackedFilesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1601733855276" />
     <state width="1269" height="281" key="GridCell.Tab.0.bottom" timestamp="1600455032441">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -136,6 +171,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1269" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600455032441" />
+    <state x="997" y="0" width="1075" height="631" key="dock-window-1" timestamp="1601810312156">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="997" y="0" width="1075" height="631" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1601810312156" />
     <state x="936" y="242" key="run.anything.popup" timestamp="1600769613668">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
